@@ -22,6 +22,16 @@ p{
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 
 }
+
+.joinOurTeam{
+    background-color:  #E12E6B;
+    color: #FFFFFF;
+}
+
+.joinText{
+    color: #FFFFFF !important;
+}
+
 span{
     background-color:  #0F3D63 ;
     color: #FFFFFF;
@@ -57,7 +67,7 @@ span{
 .coreActivity{
     color: #0F3D63;
     font-weight: 600;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .readMore:hover{
