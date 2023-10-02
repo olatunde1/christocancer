@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "DM Serif Display",sans-serif;
+   
+}
+p{
+    font-family: "Manrope";
+    font-size: 18px;
+}
+.iconLink{
+    color:#FFFFFF;
+    font-weight: 500;
+}
+.alone{
+    background-image: url(./image/killCancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    /* background-color: #000000;
+    opacity: 0.59;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
+
+}
+span{
+    background-color:  #0F3D63 ;
+    color: #FFFFFF;
+    padding: 6px 12px;
+   
+}
+
+.visionMission{
+    color: #E12E6B;
+    font-weight: 600;
+    padding-bottom: 64px;
+    
+}
+
+.vision,
+.mission{
+    /* padding-bottom: 10px;
+    border-bottom: 1px solid #0F3D63; */
+    color: #0F3D63;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 24px;
+    /* line-height: 48px; */
+}
+
+.readMore{
+    background-color:  #0F3D63 ;
+    outline: none;
+    border: 2px solid #0F3D63;
+    
+}
+
+.coreActivity{
+    color: #0F3D63;
+    font-weight: 600;
+    text-align: center;
+}
+
+.readMore:hover{
+    background-color:  #FFFFFF ;
+    border: 2px solid #0F3D63;
+    color: #0F3D63;
+}
+
+
+.hero-overlay{
+    height: 400px;
+    /* width: 100%; */
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
