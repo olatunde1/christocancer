@@ -46,6 +46,21 @@ span{
     
 }
 
+.getInTouch{
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    background-color: #0F3D63;
+    color: #FFFFFF;
+   
+}
+
+
+.formContact{
+    width: 400px;
+}
+
+
 .vision,
 .mission{
     /* padding-bottom: 10px;
@@ -68,6 +83,15 @@ span{
     color: #0F3D63;
     font-weight: 600;
     /* text-align: center; */
+}
+
+.core{
+    
+    /* background-image: url(./image/stay-healthy-opener_ftrs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
 }
 
 .readMore:hover{

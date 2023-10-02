@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img src="./image/logo.jpg" alt="" width="100" height="100" srcset="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" class="btn btn-primary">Donate Now</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
         <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,7 +177,7 @@
         </div>
     </div>
 
-    <div class="container py-2">
+    <div class="container py-5 core">
         <h3 class="coreActivity">CORE ACTIVITIES
             AND INITIATIVES
             <p class="py-3"><span>Fighting cancer since 2020</span></p>
@@ -315,10 +341,10 @@
         </div>
     </div>
 
-    <div class="container px-4 py-2 joinOurTeam">
+    <div class="position-relative overflow-hidden container px-4 my-5  joinOurTeam">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           
-          <div class="col-lg-6">
+          <div class="col-lg-6 ">
             <h1 class="display-5 fw-bold text-body-emphasis lh-2 mb-3 joinText"> Join the fight against cancer today!!!</h1>
             <p>
                 Join our team of dedicated volunteers. Your time and expertise can help us expand our reach and impact.
@@ -337,9 +363,25 @@
             </div>
           </div>
           <div class="col-12 col-sm-8 col-lg-6">
-            <img src="./image/stay-healthy-opener_ftrs.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="100%" height="100%" loading="lazy">
+            <img src="./image/stay-healthy-opener_ftrs.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
           </div>
         </div>
+    </div>
+
+   <div class="container py-5 getInTouch">
+      
+            <form class="formContact">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text joinOurTeam">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ">Send message</button>
+            </form>
     </div>
     
 </body>
