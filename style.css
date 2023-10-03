@@ -23,6 +23,35 @@ p{
 
 }
 
+.navBar .navItem:hover{
+   border-bottom: 5px solid #E12E6B;
+}
+
+.nav-item{
+    color:#0F3D63;
+    font-size: 18px !important;
+    font-weight: 500;
+    font-family: "Ubuntu", Sans-serif;
+}
+
+.donate{
+    background-color: #C04848;
+    outline: none;
+    border: none;
+}
+
+.donate:hover{
+    background-color: #FFFFFF !important;
+    border: 1px solid #C04848;
+
+}
+
+.stickyTop{
+    position: fixed;
+    width: 100%;
+    padding-bottom: ;
+}
+
 .joinOurTeam{
     background-color:  #E12E6B;
     color: #FFFFFF;
