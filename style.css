@@ -1,3 +1,7 @@
+* {
+    scroll-margin-top: 100px;
+  }
+
 h1,h2,h3,h4,h5,h6{
     font-family: "DM Serif Display",sans-serif;
    
@@ -16,15 +20,26 @@ p{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    /* height: 100vh; */
+    height: 100vh;
     /* background-color: #000000;
     opacity: 0.59;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 
 }
 
+.navBar .navItem{
+    box-shadow: inset 0 0 0 0 #0F3D63;
+    margin: 0 1rem;
+    padding-left: 24px;
+
+    /* margin: 0 -.25rem;
+    padding: 0 .25rem; */
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+ }
+
 .navBar .navItem:hover{
-   border-bottom: 5px solid #E12E6B;
+    box-shadow: inset 100px 0 0 100px  #0F3D63;
+    color: white !important;
 }
 
 .nav-item{
@@ -40,21 +55,16 @@ p{
     border: none;
 }
 
-.donate:hover{
-    background-color: #FFFFFF !important;
-    border: 1px solid #C04848;
-
-}
-
 .stickyTop{
     position: fixed;
     width: 100%;
-    padding-bottom: ;
+
 }
 
 .joinOurTeam{
     background-color:  #E12E6B;
     color: #FFFFFF;
+    padding-left: 12px;
 }
 
 .joinText{
@@ -134,6 +144,7 @@ span{
     height: 400px;
     /* width: 100%; */
     text-align: center;
+    margin-top: 10% !important;
     padding-top: 100px;
     color: white;
     overflow: hidden;
@@ -145,3 +156,29 @@ span{
     background-attachment: fixed;
     /* height: 100vh; */
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .hero-overlay{
+        margin-top: 50% !important;  
+    }
+    .navBar .navItem{
+        display: none;
+    }
+
+    .team{
+        display: block !important;
+    }
+
+    .gallery{
+        display: block !important;
+    }
+    .donate{
+        display: flex;
+        justify-content: center;
+        margin-right: 24px;
+        margin-left:24px;
+        font-size: 24px;
+    }
+  }
