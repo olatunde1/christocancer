@@ -157,13 +157,65 @@ span{
     /* height: 100vh; */
 }
 
+.modal-content{
+    background-color: #EEE7D2;
+}
 
+.modal-body {
+    background-color: #FFFFFF;
+}
+
+.btn-close{
+   background-color: #E12E6B !important;
+}
+
+
+.teamImg{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+
+.donateBtn{
+    position: relative;
+    text-align: center;
+}
+
+
+.donateNowBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EEE7D2;
+    padding: 20px 6rem 20px 6rem;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius:8px;
+}
+
+.bx{
+    color: red !important;
+}
 
 @media screen and (max-width: 480px) {
     .hero-overlay{
-        margin-top: 50% !important;  
+        margin-top: 60% !important;  
+        padding-top: 40px;
+        height: 250px;
     }
-    .navBar .navItem{
+
+    .hero-overlay h1{
+        font-size: 28px;
+    }
+
+    .hero-overlay p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .navBar .navItem,
+    .whatssap{
         display: none;
     }
 
@@ -188,7 +240,19 @@ span{
         text-align: justify;
     }
 
+    .bx{
+        color: red !important;
+    }
+
     .accordion-body{
         text-align: justify;
+    }
+    .donateNowBtn{
+        background-color: #EEE7D2;
+        padding: 20px 2rem 20px 2rem;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        border-radius:8px;
     }
   }
