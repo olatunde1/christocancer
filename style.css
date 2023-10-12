@@ -201,14 +201,25 @@ span{
     color: red !important;
 }
 
+.send{
+    outline: none;
+    padding: 6px 2rem 6px 2rem;
+    border-radius: 36px;
+    background-color: #4FCE5D;
+    color: #FFFFFF;
+    border: none;
+}
 
-
+.send:hover{
+    color: #4FCE5D;
+    background-color: #FFFFFF;
+}
 
 @media screen and (max-width: 480px) {
     .hero-overlay{
         margin-top: 60% !important;  
         padding-top: 40px;
-        height: 250px;
+        height: 300px;
     }
 
     .hero-overlay h1{
