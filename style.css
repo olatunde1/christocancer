@@ -14,8 +14,18 @@ p{
     color:#FFFFFF;
     font-weight: 500;
 }
+
+/* .alone{
+    background: url(https://www.nationalbreastcancer.org/wp-content/themes/nbcf/assets/img/pink-banner-shape.png) right bottom no-repeat,linear-gradient(63.43deg,#9f2842 0,#f05473 100%),linear-gradient(63.43deg,#d2395c 0,#ff6185 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+} */
+
 .alone{
-    background-image: url(./image/killCancer.jpg);
+    background-image: url(./image/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -71,11 +81,10 @@ p{
     color: #FFFFFF !important;
 }
 
-span{
-    background-color:  #0F3D63 ;
-    color: #FFFFFF;
-    padding: 6px 12px;
-   
+
+span .readMoreText{
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .visionMission{
@@ -124,15 +133,6 @@ span{
     /* text-align: center; */
 }
 
-.core{
-    
-    /* background-image: url(./image/stay-healthy-opener_ftrs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
-}
-
 .readMore:hover{
     background-color:  #FFFFFF ;
     border: 2px solid #0F3D63;
@@ -172,9 +172,7 @@ span{
 
 .teamImg{
     object-fit:cover !important;
-    /* max-width:100%;
-    max-height: 100%;
-    border-radius: 50% !important; */
+  
 }
 
 
@@ -215,11 +213,24 @@ span{
     background-color: #FFFFFF;
 }
 
+.ourpartners{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#more {display: none;}
+
 @media screen and (max-width: 480px) {
     .hero-overlay{
         margin-top: 60% !important;  
         padding-top: 40px;
         height: 300px;
+    }
+
+    
+    .ourpartners{
+       margin-top: 40px !important;
     }
 
     .hero-overlay h1{
