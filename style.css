@@ -1,5 +1,6 @@
 * {
     scroll-margin-top: 100px;
+    scroll-behavior: smooth;
   }
 
 h1,h2,h3,h4,h5,h6{
@@ -60,10 +61,17 @@ p{
 }
 
 .donate{
-    background-color: #C04848;
+    background-color: #FD54A2;
     outline: none;
     border: none;
 }
+
+.donate:hover{
+    background-color: #B4344F;
+    outline: none;
+    border: none;
+}
+
 
 .stickyTop{
     position: fixed;
@@ -72,7 +80,13 @@ p{
 }
 
 .joinOurTeam{
-    background-color:  #E12E6B;
+    /* background-color:  #E12E6B; */
+    background: url(https://www.nationalbreastcancer.org/wp-content/themes/nbcf/assets/img/pink-banner-shape.png) right bottom no-repeat,linear-gradient(63.43deg,#9f2842 0,#f05473 100%),linear-gradient(63.43deg,#d2395c 0,#ff6185 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* height: 100vh; */
     color: #FFFFFF;
     padding-left: 12px;
 }
@@ -157,9 +171,17 @@ span .readMoreText{
     /* height: 100vh; */
 }
 
-.modal-content{
-    background-color: #EEE7D2;
+.modal-header{
+    background-color: #D32670;
+    color: #FFFFFF;
 }
+
+.modalFooter{
+    background-color: #D32670;
+    color: #FFFFFF;
+    text-align: center !important;
+}
+
 
 .modal-body {
     background-color: #FFFFFF;
@@ -220,6 +242,10 @@ span .readMoreText{
 }
 
 #more {display: none;}
+
+.textBody{
+    text-align: justify;
+}
 
 @media screen and (max-width: 480px) {
     .hero-overlay{
