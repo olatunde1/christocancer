@@ -286,7 +286,7 @@ span .readMoreText{
     .donate{
         display: flex;
         justify-content: center;
-        margin-right: 24px;
+        /* margin-right: 24px; */
         /* margin-left:24px; */
         font-size: 24px;
     }
